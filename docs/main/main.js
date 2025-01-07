@@ -12,7 +12,7 @@ let startButton = document.getElementById("start-button");
 let uploadButton = document.getElementById("upload-button");
 let questionCount;
 let scoreCount = 0;
-let count = 11;
+let count = 21;
 let countdown;
 
 //Questions and Options array
@@ -46,7 +46,7 @@ nextBtn.addEventListener(
         questionCount + 1 + " of " + quizArray.length + " Question";
       //display quiz
       quizDisplay(questionCount);
-      count = 11;
+      count = 21;
       clearInterval(countdown);
       timerDisplay();
     }
@@ -139,7 +139,7 @@ function initial() {
   quizContainer.innerHTML = "";
   questionCount = 0;
   scoreCount = 0;
-  count = 11;
+  count = 21;
   clearInterval(countdown);
   timerDisplay();
   quizCreator();
