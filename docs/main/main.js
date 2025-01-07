@@ -12,7 +12,7 @@ let startButton = document.getElementById("start-button");
 let uploadButton = document.getElementById("upload-button");
 let questionCount;
 let scoreCount = 0;
-let count = 61;
+let count = 41;
 let countdown;
 
 //Questions and Options array
